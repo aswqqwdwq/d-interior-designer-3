@@ -1,0 +1,61 @@
+{
+  "name": "3d-interior-designer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.13.5",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^5.16.8",
+    "@mui/material": "^5.16.8",
+    "@react-three/drei": "^9.118.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "axios": "^1.4.0",
+    "fabric": "^5.4.2",
+    "file-saver": "^2.0.5",
+    "localforage": "^1.10.0",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-measure": "^2.5.2",
+    "react-scripts": "5.0.1",
+    "stylis": "^4.3.4",
+    "stylis-plugin-rtl": "^2.1.1",
+    "three": "^0.155.0",
+    "three-csg-ts": "^3.2.0",
+    "three-stdlib": "^2.34.0",
+    "zustand": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "./",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.2.0"
+  }
+}
